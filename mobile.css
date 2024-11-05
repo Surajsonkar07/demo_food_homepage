@@ -1,0 +1,45 @@
+@media screen and (max-width:600px) {
+    nav {
+        display: block;
+        text-align: center;
+        height: 6.5rem;
+        /* padding: 1px; */
+    }
+    nav h1{
+        font-size: 1.8rem;
+    
+    }
+    nav ul li a{
+        font-size: 1.3rem;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card{
+        width: 23rem;
+        padding: 1rem;
+    }
+    .card img{
+        height: 18rem;
+        width: 18rem;
+        border-radius: 0.6rem;
+    }
+    form input{
+        width: 90%;
+        font-size: 20px;
+        height: 2rem;
+    }
+    form span{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .btn{
+        width: 60%;
+        height: 50px;
+        color: aliceblue;
+        font-size: 15px;
+    }
+}

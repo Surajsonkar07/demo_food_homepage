@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{margin: 0;
+padding: 0;
+font-family: "Open Sans", sans-serif;
+}
+
+.main{
+    text-align: center;
+    background-image: url(img/bg-img.avif )  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding:  3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(64, 13, 13);
+    padding: 0px 20px;
+    height: 3rem;
+    position: sticky;
+    top: 0;
+
+}
+nav h1{
+    font-size: 1.3rem;
+
+}
+nav ul{
+    display: flex;
+    gap: 3rem;
+}
+
+nav ul li{
+    list-style: none;
+   
+}
+
+nav ul li a{
+    color: white;
+     text-decoration: none;
+     cursor: pointer;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap:2.5rem;
+    /* padding:1rem 5rem; */
+    width: 100%;
+    /* margin-left: 2rem; */
+    color: rgb(5, 30, 46);
+    
+    background-color: rgb(4, 0, 0,0.1);
+}
+
+.main-container h1{
+    font-size: 2rem;
+}
+
+.main-container p{
+    font-size: 1.2rem;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap:  1rem;
+}
+form span{
+    color: rgb(243, 241, 239);
+}
+form input{
+    width: 50%;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 13px;
+    border: none;
+    height: 1.4rem;
+}
+.btn{
+    width: 20%;
+    height: 25px;
+    border-radius: 2rem;
+    border: none;
+    background: #1c74ac;
+    color: aliceblue;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(37, 4, 69, 0.54);
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 15rem;
+    background-color: rgba(0, 88, 26, 0.704);
+    margin: 20px;
+    text-align: center;
+    padding: 0.4rem;
+    border-radius: 0.9rem;
+}
+.card img{
+    height: 8rem;
+    width: 10rem;
+    border-radius: 0.4rem;
+}
+.card .btn{
+    height: 2rem;
+    width: 10rem;
+}
+footer{
+    background-color: rgb(27, 27, 114);
+    text-align: center;
+    color: white;
+    /* height: 2rem; */
+    padding: 1px;
+}
